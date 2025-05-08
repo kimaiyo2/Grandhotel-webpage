@@ -22,7 +22,7 @@ body {
 
 @keyframes slideshow {
     0% {
-        background-image: url(sunset-7076676_1280\ \(1\).jpg);
+        background-image: url(elevate-snnhGYNqm44-unsplash.jpg);
     }
     50% {
         background-image: url(monika-grabkowska-P1aohbiT-EY-unsplash.jpg);
@@ -46,10 +46,19 @@ header {
     align-items: center;
     margin: 10px;
 }
-.name h1 {
+ .name h1 {
     color: #259dbe;
     font-size: 29px;
+   
     
+}
+.name a {
+    text-decoration: none;
+}
+.name h1:hover {
+    color: #f007c2;
+    transition: 0.3s ease-out;
+    transform: scale(1.08);
 }
 .name h1 span {
     color: greenyellow;
@@ -74,7 +83,9 @@ header {
 .nav-bar ul li a:hover {
     color: #f007c2;
     transition: 0.3s;
+    transform: scale(1.2);
 }
+
 .logins {
     display: flex;
 }
@@ -134,13 +145,13 @@ header {
     justify-content: space-between;
     align-items: center;
     margin: 20px auto;
-    width: 80%;
-    height: 300px;
+    width: 100%;
+    height: 200px;
     border-radius: 10px;
+
 }
 .photos .photoimg {
     width: 100%;
-    background-color: #f007c2;
     height: 100%;
     border-radius: 10px;
     margin: 20px auto;
@@ -151,9 +162,13 @@ header {
 .photos .photoimg img {
     width: 100%;
     height: 200px;
-    border-radius: 10px;
+    border-radius: 15px;
     object-fit: cover;
-    margin-bottom: 30px;
-    margin-top: 30px;
+    backdrop-filter: blur(40px);
+
+   
+    transform: 1.5s;
+    transition: 0.3s ease-in-out;
+    background-size: cover;
 
 }
