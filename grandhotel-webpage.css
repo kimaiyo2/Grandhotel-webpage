@@ -165,10 +165,7 @@ header {
     border-radius: 15px;
     object-fit: cover;
     backdrop-filter: blur(40px);
-
-   
     transform: 1.5s;
     transition: 0.3s ease-in-out;
     background-size: cover;
-
 }
